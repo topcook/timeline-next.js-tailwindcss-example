@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Nav = () => {
   return (
-    <header className="lg:px-16 px-8 bg-blue-400 text-white flex flex-wrap items-center py-2 shadow-md">
+    <header className="lg:px-32 px-8 bg-blue-400 text-white flex flex-wrap items-center py-2 shadow-md">
       <div className="flex-1 flex justify-between items-center">
         <a href="#" className="text-xl">
           Boilerplate
@@ -26,7 +26,7 @@ const Nav = () => {
               </Link>
             </li>
             <li>
-              <Link href="/about">
+              <Link href="/">
                 <a className="md:p-4 py-3 px-0 block">About</a>
               </Link>
             </li>
