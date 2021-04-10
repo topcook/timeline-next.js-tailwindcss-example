@@ -12,7 +12,7 @@ export default function Home() {
           </h3>
           <Link href="https://github.com/stmeem/nextjs-tailwindcss-boilerplate">
             <button className="bg-blue-400 hover:bg-blue-500 text-white  rounded-full py-4 px-8 shadow-lg uppercase tracking-wider">
-              Explore now
+              Download
             </button>
           </Link>
         </div>
