@@ -2,8 +2,8 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div>
-      <div className="py-44 bg-blue-100">
-        <div className="container mx-auto px-6">
+      <div className="min-h-screen py-44 bg-blue-100">
+        <div className="container lg:px-32 px-6">
           <h2 className="text-4xl font-bold mb-2 text-black">
             Next.js and TailwindCSS Boilerplate!
           </h2>
