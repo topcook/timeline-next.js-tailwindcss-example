@@ -25,11 +25,6 @@ const Nav = () => {
                 <a className="md:p-4 py-3 px-0 block">Home</a>
               </Link>
             </li>
-            <li>
-              <Link href="/">
-                <a className="md:p-4 py-3 px-0 block">About</a>
-              </Link>
-            </li>
           </ul>
         </nav>
       </div>
