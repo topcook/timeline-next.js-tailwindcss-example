@@ -33,3 +33,7 @@
 .phase-number {
     margin-left: -10px;
 }
+
+a {
+    color: white !important;
+}
