@@ -5,3 +5,27 @@
 #menu-toggle:checked + #menu{
     display:block;
 }
+
+.white-text {
+    color:white !important;
+}
+
+.ant-timeline-item-head {
+    background-color: #252829 !important;
+    padding: 0px !important;
+}
+
+.ant-timeline-item-tail {
+    border-left-color: #8a8379 !important;
+}
+
+.ant-timeline-item-head-custom {
+    top: 8.5px !important;
+}
+
+.not-passed .ant-timeline-item-head {
+    width: 1.5rem;
+    height: 1.5rem;
+    top: -2px;
+    left: -7px;
+}
