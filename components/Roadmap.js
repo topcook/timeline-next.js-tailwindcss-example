@@ -168,6 +168,28 @@ const Roadmap = () => {
                     </Timeline.Item>
                 </Timeline>
             </div>
+
+            <div>
+                <div className='text-4xl font-semibold 2 pb-8 phase-number'>
+                    Phase 4
+                </div>
+
+                <Timeline className='white-text'>
+                    <Timeline.Item color="#8a8379" className='not-passed'>
+                        <div className='content of timeline'>
+                            <div className='text-2xl font-medium mb-2 mt-[-2px]'>
+                                To be continued..
+                            </div>
+                            <div class='mb-2'>
+                                We are here to make history! We continue to move forward until the Dooms day.
+                                We have a lot of exciting events planned for the future. We take our time,
+                                stay patient and build our IRL utility platforms on the metaverse at any cost.
+                                Its either win or die trying!
+                            </div>
+                        </div>
+                    </Timeline.Item>
+                </Timeline>
+            </div>
         </div >
     );
 };
