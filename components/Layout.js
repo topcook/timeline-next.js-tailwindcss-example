@@ -1,17 +1,20 @@
 import Head from 'next/head';
 import Nav from './Nav';
-const Layout =({children})=>{
-    return(
+import Footer from './Footer';
+
+const Layout = ({ children }) => {
+    return (
         <>
-        <Head>
-        <title>Boilerplate</title>
-        </Head>
-        <Nav/>
-        <div >
-            <main >
-            {children}
-            </main>
-        </div>
+            <Head>
+                <title>Roadmap-Terrestrial Rock </title>
+            </Head>
+            <Nav />
+            <div >
+                <main >
+                    {children}
+                </main>
+            </div>
+            <Footer />
         </>
     )
 }
